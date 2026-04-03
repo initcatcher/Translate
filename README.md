@@ -32,8 +32,8 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull gemma4-heretic
 ```
 
-> 모델 크기: ~16GB. RTX 4090(24GB VRAM) 기준 여유롭게 동작합니다.
-> VRAM이 부족한 경우 `ollama pull gemma4:E2B` (7.2GB)를 대신 사용하고, 확장 설정에서 모델명을 변경하세요.
+> 모델 크기: ~16GB (25.2B 파라미터). RTX 4090(24GB VRAM) 기준 여유롭게 동작합니다.
+> VRAM이 부족한 경우 `ollama pull gemma4:E2B` (7.2GB)를 대신 사용하고, 확장 Settings에서 모델명을 변경하세요.
 
 ### 3. Ollama CORS 설정
 
