@@ -11,15 +11,17 @@ const metadata = {
             name: "Model",
             type: "text",
             key: "model",
-            value: "gemma2",
+            value: "gemma4-heretic",
         },
         {
             name: "Prompt",
             type: "text",
             key: "prompt",
-            value: "You are a professional translator. " +
-                "No comments. " +
-                "Just translate the following text to LANGUAGE: ",
+            value: "You are a professional translator specializing in natural, fluent translations. " +
+                "Translate the following text to LANGUAGE. " +
+                "Preserve the original tone, nuance, and context. " +
+                "Do not add any comments, explanations, or notes. " +
+                "Output only the translated text: ",
         },
     ],
 };
